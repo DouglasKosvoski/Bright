@@ -1,8 +1,7 @@
 # BrightSouls
 Dark Souls  2D - A Side view.
 
-  ### Powered by Fronteira-TEC [GitHub](https://github.com/FronteiraTec) 
-  ### [Site](http://fronteiratec.com) 
+### Powered by Fronteira-TEC  [GitHub](https://github.com/FronteiraTec) [Site](http://fronteiratec.com) 
 
 Jogo idealizado e continuado a partir da GameJam da FronteiraTEC na UFFS
 
