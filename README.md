@@ -1,18 +1,22 @@
-# BrightSouls
+# Bright Souls
 Dark Souls  2D - A Side view.
 
-### Developers and GameArtists: 
-   ####        \t\t\t/t/tMain Programmer: [Douglas 'Attory' Kosvoski, ](https://github.com/DouglasKosvoski) 
-   ####        Programmer: [Guilherme Rafael Graeff.](https://github.com/GuilhermeGraeff)  
-   ####        Desing and Concept Art: [Eduardo Folle Miotto, ](https://github.com/edo-folle) 
+A game made specially for FronteiraTEC UFFS GameJam (sep, 2019).
+Two-Dimensional game inspired on @FromSoftware titles.
+
+## Developers and GameArtists: 
+##### Main Programmer: [Douglas 'Attory' Kosvoski](https://github.com/DouglasKosvoski) 
+##### Side Programmer: [Guilherme Rafael Graeff](https://github.com/GuilhermeGraeff) 
+##### Desing & Concept Art: [Eduardo Folle Miotto](https://github.com/edo-folle) 
    
 
-### Powered by Fronteira-TEC,  [GitHub,](https://github.com/FronteiraTec) [ Site.](http://fronteiratec.com) 
+## Powered by Fronteira-TEC
+##### Empresa júnior do curso de Ciência da Computação da UFFS, campus Chapecó/SC. 
+[GitHub,](https://github.com/FronteiraTec) [ Site.](http://fronteiratec.com) [E-mail,](contato@fronteiratec.com) 
+[Facebook,](asdasd.com) [Twitter,]() [Instagram](https://instagram.com/fronteiratec/)
 
-Jogo idealizado e continuado a partir da GameJam da FronteiraTEC na UFFS
+#### Intro
+![](https://github.com/DouglasKosvoski/BrightSouls/blob/master/screenshots/intro.png)
 
-### Intro
-   ![](https://github.com/DouglasKosvoski/BrightSouls/blob/master/screenshots/intro.png)
-
-### Gameplay
+#### Gameplay
    ![](https://github.com/DouglasKosvoski/BrightSouls/blob/master/screenshots/gm1.png)
