@@ -331,13 +331,11 @@ animations = [ {
 
 [node name="BKGD" type="Node2D"]
 
-[node name="Sprite" type="Sprite" parent="."]
-
-[node name="AnimatedSprite" type="AnimatedSprite" parent="Sprite"]
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 510, 300 )
 scale = Vector2( 1.6, 1.7 )
 frames = SubResource( 1 )
 animation = "New Anim"
-frame = 228
+frame = 235
 speed_scale = 4.0
 playing = true
