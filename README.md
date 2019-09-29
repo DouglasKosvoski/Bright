@@ -2,7 +2,7 @@
 Dark Souls  2D - A Side view.
 
 ### Developers and GameArtists: 
-   ####        Main Programmer: [Douglas 'Attory' Kosvoski, ](https://github.com/DouglasKosvoski) 
+   ####        \t\t\t/t/tMain Programmer: [Douglas 'Attory' Kosvoski, ](https://github.com/DouglasKosvoski) 
    ####        Programmer: [Guilherme Rafael Graeff.](https://github.com/GuilhermeGraeff)  
    ####        Desing and Concept Art: [Eduardo Folle Miotto, ](https://github.com/edo-folle) 
    
