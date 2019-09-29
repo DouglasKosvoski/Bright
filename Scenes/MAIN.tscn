@@ -16,7 +16,9 @@ position = Vector2( 510, 300 )
 
 [node name="chao" type="StaticBody2D" parent="level boundaries"]
 editor/display_folded = true
-position = Vector2( 478.047, 637.569 )
+visible = false
+position = Vector2( 700, 510 )
+scale = Vector2( 2, 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="level boundaries/chao"]
 position = Vector2( 0.242188, -0.026123 )
@@ -30,7 +32,8 @@ texture = ExtResource( 1 )
 
 [node name="chao2" type="StaticBody2D" parent="level boundaries"]
 editor/display_folded = true
-position = Vector2( -39.5945, 483.198 )
+visible = false
+position = Vector2( -250, 330 )
 rotation = 1.57079
 scale = Vector2( 0.5, 1 )
 
@@ -46,7 +49,8 @@ texture = ExtResource( 1 )
 
 [node name="chao3" type="StaticBody2D" parent="level boundaries"]
 editor/display_folded = true
-position = Vector2( 1060, 490 )
+visible = false
+position = Vector2( 1640, 300 )
 rotation = 1.57079
 scale = Vector2( 0.5, 1 )
 
