@@ -10,10 +10,12 @@ Two-Dimensional game inspired on @FromSoftware titles.
 ##### Desing & Concept Art: [Eduardo Folle Miotto](https://github.com/edo-folle)
    
 
+
 ## Powered by Fronteira-TEC
 ##### Empresa júnior do curso de Ciência da Computação da UFFS, campus Chapecó/SC. 
 [GitHub,](https://github.com/FronteiraTec) [ Site.](http://fronteiratec.com) [E-mail,](contato@fronteiratec.com) 
 [Facebook,](asdasd.com) [Twitter,]() [Instagram](https://instagram.com/fronteiratec/)
+
 
 #### Intro
 ![](https://github.com/DouglasKosvoski/BrightSouls/blob/master/screenshots/intro.png)
