@@ -5,18 +5,18 @@
 [ext_resource path="res://sprites/idle/player_frame_2.png" type="Texture" id=3]
 [ext_resource path="res://sprites/idle/player_frame_3.png" type="Texture" id=4]
 [ext_resource path="res://sprites/idle/player_frame_4.png" type="Texture" id=5]
-[ext_resource path="res://sprites/attack/player_ataque_1.png" type="Texture" id=6]
-[ext_resource path="res://sprites/attack/player_ataque_2.png" type="Texture" id=7]
-[ext_resource path="res://sprites/attack/player_ataque_3.png" type="Texture" id=8]
-[ext_resource path="res://sprites/roll/roll1.png" type="Texture" id=9]
-[ext_resource path="res://sprites/roll/roll2.png" type="Texture" id=10]
-[ext_resource path="res://sprites/roll/roll3.png" type="Texture" id=11]
-[ext_resource path="res://sprites/roll/roll4.png" type="Texture" id=12]
-[ext_resource path="res://sprites/roll/roll5.png" type="Texture" id=13]
-[ext_resource path="res://sprites/walk/player_walk_1.png" type="Texture" id=14]
-[ext_resource path="res://sprites/walk/player_walk_2.png" type="Texture" id=15]
-[ext_resource path="res://sprites/walk/player_walk_3.png" type="Texture" id=16]
-[ext_resource path="res://sprites/walk/player_walk_4.png" type="Texture" id=17]
+[ext_resource path="res://sprites/walk/player_walk_1.png" type="Texture" id=6]
+[ext_resource path="res://sprites/walk/player_walk_2.png" type="Texture" id=7]
+[ext_resource path="res://sprites/walk/player_walk_3.png" type="Texture" id=8]
+[ext_resource path="res://sprites/walk/player_walk_4.png" type="Texture" id=9]
+[ext_resource path="res://sprites/attack/player_ataque_1.png" type="Texture" id=10]
+[ext_resource path="res://sprites/attack/player_ataque_2.png" type="Texture" id=11]
+[ext_resource path="res://sprites/attack/player_ataque_3.png" type="Texture" id=12]
+[ext_resource path="res://sprites/roll/roll1.png" type="Texture" id=13]
+[ext_resource path="res://sprites/roll/roll2.png" type="Texture" id=14]
+[ext_resource path="res://sprites/roll/roll3.png" type="Texture" id=15]
+[ext_resource path="res://sprites/roll/roll4.png" type="Texture" id=16]
+[ext_resource path="res://sprites/roll/roll5.png" type="Texture" id=17]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 20.8151, 27.6891 )
@@ -28,20 +28,20 @@ animations = [ {
 "name": "idle",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ) ],
+"frames": [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "walk",
+"speed": 4.0
+}, {
+"frames": [ ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ) ],
 "loop": true,
 "name": "attack",
 "speed": 6.0
 }, {
-"frames": [ ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
+"frames": [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
 "loop": true,
 "name": "roll",
 "speed": 8.0
-}, {
-"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
-"loop": true,
-"name": "walk",
-"speed": 4.0
 } ]
 
 [node name="PLAYER" type="Node2D"]
