@@ -1,7 +1,7 @@
 # BrightSouls
 Dark Souls  2D - A Side view.
 
-### Developers and GameArtists: [Attory, ](https://github.com/DouglasKosvoski) [Folle, ](https://github.com/edo-folle) [Graeff.](https://github.com/GuilhermeGraeff)  
+### Developers and GameArtists: [Douglas 'Attory' Kosvoski, ](https://github.com/DouglasKosvoski) [Eduardo Folle Miotto, ](https://github.com/edo-folle) [Guilherme Rafael Graeff.](https://github.com/GuilhermeGraeff)  
 
 ### Powered by Fronteira-TEC,  [GitHub,](https://github.com/FronteiraTec) [ Site.](http://fronteiratec.com) 
 
