@@ -19,6 +19,3 @@ Two-Dimensional game inspired on @FromSoftware titles.
 
 #### Intro
 ![](https://github.com/DouglasKosvoski/BrightSouls/blob/master/screenshots/intro.png)
-
-#### Gameplay
-   ![](https://github.com/DouglasKosvoski/BrightSouls/blob/master/screenshots/gm1.png)
