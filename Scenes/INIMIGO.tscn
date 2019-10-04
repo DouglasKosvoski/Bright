@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=2]
 
-[ext_resource path="res://KinematicBody2D.gd" type="Script" id=1]
+[ext_resource path="res://scripts/enemy.gd" type="Script" id=1]
 [ext_resource path="res://sprites/idle/player_frame_1.png" type="Texture" id=2]
 [ext_resource path="res://sprites/idle/player_frame_2.png" type="Texture" id=3]
 [ext_resource path="res://sprites/idle/player_frame_3.png" type="Texture" id=4]
@@ -10,20 +10,20 @@
 [ext_resource path="res://sprites/walk/player_walk_3.png" type="Texture" id=8]
 [ext_resource path="res://sprites/walk/player_walk_4.png" type="Texture" id=9]
 
-[sub_resource type="SpriteFrames" id=2]
+[sub_resource type="SpriteFrames" id=1]
 animations = [ {
 "frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ],
 "loop": true,
 "name": "idle",
-"speed": 5.0
+"speed": 4.0
 }, {
 "frames": [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
 "loop": true,
 "name": "walking",
-"speed": 5.0
+"speed": 6.0
 } ]
 
-[sub_resource type="RectangleShape2D" id=1]
+[sub_resource type="RectangleShape2D" id=2]
 extents = Vector2( 21.9251, 27.5956 )
 
 [node name="INIMIGO" type="Node2D"]
@@ -36,11 +36,11 @@ position = Vector2( 152.437, 214.794 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D/Sprite"]
 position = Vector2( 0.0860138, 1.31551 )
-frames = SubResource( 2 )
+frames = SubResource( 1 )
 animation = "walking"
-frame = 1
+frame = 2
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
 position = Vector2( 152.437, 214.794 )
-shape = SubResource( 1 )
+shape = SubResource( 2 )

@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var motion = Vector2()
 const GRAVITY = 40
-const speed = 600
+const speed = 400
 
 onready var anim = get_node("Sprite/AnimatedSprite")
 var move = false
@@ -11,6 +11,7 @@ var roll = false
 var temp_roll = 0
 var temp_atk = 0
 var atk = false
+
 func _physics_process(delta):
 	motion.y += GRAVITY
 	motion.x = 0
@@ -41,13 +42,13 @@ func _physics_process(delta):
 				roll = false
 	else:
 		if Input.is_action_pressed('left'):
-			
 			dir = 'left'
 			get_node("Sprite/AnimatedSprite").set_flip_h(true)
 			move = true
 			anim.play("walk")
 			if Input.is_action_pressed('left_ctrl'):
 				roll = true
+				
 		elif Input.is_action_pressed('right'):
 			dir = 'right'
 			get_node("Sprite/AnimatedSprite").set_flip_h(false)
@@ -55,6 +56,7 @@ func _physics_process(delta):
 			anim.play("walk")  
 			if Input.is_action_pressed('left_ctrl'):
 				roll = true
+				
 		else:
 			if Input.is_action_pressed('left_ctrl'):
 				roll = true
@@ -66,7 +68,5 @@ func _physics_process(delta):
 #	if Input.is_action_just_pressed('space'):
 #		if is_on_floor():
 #			motion.y = -speed*1.5
-			
-
 
 	motion = move_and_slide(motion, Vector2(0,-1))
