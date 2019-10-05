@@ -1,0 +1,82 @@
+
+                                BRIGHT
+
+    ° PLAYER
+        - caminhar
+        - correr (consome stamina, baseado em peso)
+        - rolar
+        - pular  (quanto mais tempo pressionado mais alto)
+        - dano de queda
+        - block  (escudo)
+        - ataque fraco
+        - ataque forte
+        - multi-ataque (combos)
+        - melee  (desarmado)
+        - stun   (stagger)
+
+        - inventario
+            - menu de inventario contem
+                - armas (comuns, de quest, e armas de bosses)
+                - escudos, arremessaveis (bombs, throwing knives etc)
+                - armaduras completas (nao misturaveis com outros sets)
+                - healings
+
+            - slot esquerdo
+                - escudo, healing, arremessaveis (ciclying)
+            - slot direito
+                - apenas uma arma de ataque equipavel por vez
+
+
+        - ganho de shadows (almas)
+            - bosses muito fortes (consumidos por Luz) nao dropam shadows
+            apenas dropam/liberam area que guarda algum item raro/especial
+            comercializavel depois com mercantes
+
+        - level up
+            level up se da com o player conseguindo um numero x de shadows (x ∈ N)
+            player entao vai para a cidade hub (central) conversa com a Shadow Keeper
+            NPC que aumenta seus atributos em troca de Shadows
+
+
+    ° GAME MECHANICS
+        - adventure souls-like 2D platform
+        - jogo nao tem pause
+        - full autosave (save automatico a cada x segundos (2 < x < 10))
+        - inimigos (maioria) dropam Shadows (souls)
+        - shadows ficam no local da morte ate proxima morte ou recolhimento da mesma (o que vier primeiro)
+        - light eh inimiga (se o player ficar no sol o HP eh drenado)
+        - mercantes
+        - ferreiro
+        - 'bonfires' / checkpoints
+        - inimigos dropam itens
+        - inimigos comuns respawn (sempre que o checkpoint for utilizado)
+        - HUD visivel apenas em 'combate'
+        - baus de tesouro (a definir se visualmente sera um bau)
+        - zoom-in & zoom-out de cenas importantes, boss fights etc
+        - shake screen on high impacts
+
+
+    ° HISTORIA/LORE (completa de cada pedaco do jogo, item, inimigo, finais etc)
+        --- a ser colocado no papel pelo responsavel
+
+
+    ° COSMETICA DOS BOSSES (habilidades, ataques, natureza de origem,
+                            importancia para a historia, o que dropam etc)
+        --- a ser colocado no papel pelo responsavel
+
+
+    ° O QUE NAO VAI TER
+        - crossbow
+        - double jump
+        - equipment degradation
+        - mapa
+        - burial gifts
+        - pause
+        - stating classes
+        - fast-travel (apenas shortcuts no level design)
+        - backstep
+        - dash
+        - parry
+        - magica
+        - item que aumenta ataque/defesa temporariamente/permanentemente
+        - aneis
