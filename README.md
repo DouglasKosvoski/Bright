@@ -1,5 +1,4 @@
-# Bright Souls
-Dark Souls  2D - A Side view.
+# Bright
 
 A game made specially for FronteiraTEC UFFS GameJam (sep, 2019).
 Two-Dimensional game inspired on @FromSoftware titles.
