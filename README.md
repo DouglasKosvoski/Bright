@@ -13,8 +13,12 @@ Two-Dimensional game inspired on @FromSoftware titles.
 
 ## Powered by Fronteira-TEC
 ##### Empresa júnior do curso de Ciência da Computação da UFFS, campus Chapecó/SC. 
-[GitHub,](https://github.com/FronteiraTec) [ Site.](http://fronteiratec.com) [E-mail,](contato@fronteiratec.com) 
-[Facebook,](asdasd.com) [Twitter,]() [Instagram](https://instagram.com/fronteiratec/)
+   [GitHub,](https://github.com/FronteiraTec)
+   [ Site.](http://fronteiratec.com) 
+   [E-mail,](contato@fronteiratec.com) 
+   [Facebook,](https://www.facebook.com/FronteiraTec.UFFS)
+   [Twitter,](https://twitter.com/FronteiraTec) 
+   [Instagram](https://instagram.com/fronteiratec/)
 
 
 ##### Intro
