@@ -57,7 +57,20 @@
 
 
     ° HISTORIA/LORE (completa de cada pedaco do jogo, item, inimigo, finais etc)
-        --- a ser colocado no papel pelo responsavel
+        - cidade em baixo de um vale, protegida pela sombra do dragão(pai) da doença causada pelo sol
+        - dragão está morrendo pela doença
+        - protagonista é um de vários cavaleiros que receberam uma pequena parte da sombra do pai, com intuito de procurar uma cura
+        - objetivo padrão de procurar sombras fortes(ou sombras fracas de seres forte) ->
+		 basicamente os bosses mas não nescessariamente
+        - a procura ocorre no vale, fora da cidade segura, onde seres dominados pelo sol vivem, inclusive comunidades mais organizadas
+        - quando coletadas sombras suficientes, pode obter-se o primeiro final, de ir em encontro com a doença do dragão, 
+		 então o curando e no processo virar uma estátua(como um casulo para manter a doença presa) como diversos 
+		 outros cavaleiros já fizeram para manter o dragão vivo
+        - se feita determinada quest(em processo de ser definida), desbloqueia o segundo final, nele mata-se o dragão na boss fight e 
+		 o protagonista toma o lugar dele como novo dragão(então deixando explícito que o vale é formado por dragões mortos)
+        - se feita outra determina quest(definir se quest do segundo final é nescessária para este final) envolvendo a população de infectados
+		 conscientes(durante a quest os infectados dariam upgrades envolvendo diminuição do dano pela luz, e prometeriam ajudar a curar o dragão), 
+		 o protagonista mataria o dragão mas não se tornaria o próximo, mostrando estar infectado pela luz(intuito inicial de ser uma surpresa ao jogador)
 
 
     ° COSMETICA DOS BOSSES (habilidades, ataques, natureza de origem,
