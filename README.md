@@ -17,5 +17,11 @@ Two-Dimensional game inspired on @FromSoftware titles.
 [Facebook,](asdasd.com) [Twitter,]() [Instagram](https://instagram.com/fronteiratec/)
 
 
-#### Intro
-![](https://github.com/DouglasKosvoski/BrightSouls/blob/master/screenshots/intro.png)
+##### Intro
+   ![](https://github.com/DouglasKosvoski/BrightSouls/blob/master/screenshots/intro.png)
+
+##### Key Binds
+   ![](https://github.com/DouglasKosvoski/Bright/blob/master/screenshots/keybindings.png)
+   
+##### Attack 
+   ![](https://github.com/DouglasKosvoski/Bright/blob/master/screenshots/attack.png)
