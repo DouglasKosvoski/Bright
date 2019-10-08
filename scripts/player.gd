@@ -3,7 +3,7 @@ extends KinematicBody2D
 onready var anim = get_node("Sprite/AnimatedSprite")
 var motion = Vector2()
 
-const CONST_YSPEED = 850
+const CONST_YSPEED = 1200
 const GRAVITY = 40
 const XSPEED = 400
 const ACCELERATION = 1.5
