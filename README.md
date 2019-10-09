@@ -23,8 +23,8 @@ Two-Dimensional game inspired on @FromSoftware titles.
 ##### Intro
    ![](https://github.com/DouglasKosvoski/BrightSouls/blob/master/screenshots/intro.png)
 
-##### Attack 
-   ![](https://github.com/DouglasKosvoski/Bright/blob/master/screenshots/attack.png)
+//##### Attack 
+//   ![](https://github.com/DouglasKosvoski/Bright/blob/master/screenshots/attack.png)
 
 ##### Key Binds
    ![](https://github.com/DouglasKosvoski/Bright/blob/master/screenshots/keybindings.png)
