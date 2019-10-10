@@ -90,6 +90,6 @@ func _physics_process(delta):
 				if is_on_floor() == true:
 					jump = true
 			else:
-				anim.play("idle")
+				anim.play("idle original fat")
 
 	motion = move_and_slide(motion, Vector2(0,-1))
