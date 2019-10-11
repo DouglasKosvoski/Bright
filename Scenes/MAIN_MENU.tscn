@@ -72,5 +72,6 @@ custom_fonts/font = SubResource( 1 )
 text = "quit"
 align = 1
 valign = 1
+
 [connection signal="pressed" from="start button" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="quit button" to="." method="_on_quit_button_pressed"]
