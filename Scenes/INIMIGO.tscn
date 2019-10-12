@@ -42,7 +42,7 @@ position = Vector2( 152.437, 214.794 )
 position = Vector2( 0.0860138, 1.31551 )
 frames = SubResource( 1 )
 animation = "walking"
-frame = 2
+frame = 1
 playing = true
 
 [node name="corpo" type="CollisionShape2D" parent="KinematicBody2D"]
