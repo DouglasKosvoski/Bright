@@ -1,5 +1,6 @@
 extends KinematicBody2D
 
+const GRAVITY = 40
 var temp = 0
 var speed = 400
 var speed_factor = 2
@@ -10,6 +11,7 @@ func _ready():
 	get_node("Sprite/AnimatedSprite").set_flip_h(direita)
 
 func _physics_process(delta):
+	motion.y += GRAVITY
 	var anim = get_node("Sprite/AnimatedSprite")
 
 	anim.play('walking')
