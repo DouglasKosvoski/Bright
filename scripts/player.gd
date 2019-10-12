@@ -4,9 +4,9 @@ onready var anim = get_node("Sprite/AnimatedSprite")
 var motion = Vector2()
 
 const CONST_YSPEED = 1200
+const ACCELERATION = 1.5
 const GRAVITY = 40
 const XSPEED = 400
-const ACCELERATION = 1.5
 var yspeed = CONST_YSPEED
 
 var move = false
@@ -23,6 +23,7 @@ func _physics_process(delta):
 	motion.y += GRAVITY
 	motion.x = 0
 
+	
 	if jump:
 		if yspeed > 0:
 			motion.y = -yspeed
