@@ -24,6 +24,7 @@ func _process(delta):
 		if Input.is_action_just_pressed('ui_cancel'):
 			player_equipment.set_visible(false)	
 			player_equipment_is_on = false
+			
 	elif player_equipment_is_on == false:
 		player_equipment.set_visible(false)
 

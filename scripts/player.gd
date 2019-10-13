@@ -29,10 +29,15 @@ func _physics_process(delta):
 	motion.x = 0
 	# call the function to handle the animations
 	_move_and_animation()
-
 	# update Vector2 with new positions
 	motion = move_and_slide(motion, Vector2(0,-1))
 
+	# disable player movement if pause is active
+#	if PAUSE_MENU.pause == false:
+#		_move_and_animation()
+#		# update Vector2 with new positions
+#		motion = move_and_slide(motion, Vector2(0,-1))
+	
 
 # apply gravity to player on the Y-axis
 func _apply_gravity(force):
