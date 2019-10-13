@@ -10,6 +10,7 @@
 extents = Vector2( 31.0066, 31.5263 )
 
 [node name="Node2D" type="Node2D"]
+position = Vector2( 130, 60 )
 
 [node name="level boundaries" type="Node2D" parent="."]
 editor/display_folded = true
