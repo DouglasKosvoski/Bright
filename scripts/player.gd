@@ -5,7 +5,7 @@ var motion = Vector2()
 
 const CONST_YSPEED = 1200
 const ACCELERATION = 1.5
-const GRAVITY = 40
+const GRAVITY = 50
 const XSPEED = 400
 var yspeed = CONST_YSPEED
 
