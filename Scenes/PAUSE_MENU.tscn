@@ -22,10 +22,9 @@
 [node name="pause menu" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 30.0
-margin_top = -680.0
-margin_right = 30.0
-margin_bottom = -680.0
+margin_left = -1.90735e-06
+margin_top = -950.0
+margin_bottom = -950.0
 grow_horizontal = 0
 rect_scale = Vector2( 0.88, 0.92 )
 script = ExtResource( 1 )
