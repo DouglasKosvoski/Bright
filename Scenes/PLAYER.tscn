@@ -94,7 +94,7 @@ smoothing_speed = 14.0
 [node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D/Sprite"]
 frames = SubResource( 1 )
 animation = "idle original fat"
-frame = 1
+frame = 2
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
@@ -102,7 +102,6 @@ position = Vector2( -1.17072, 1.338 )
 shape = SubResource( 2 )
 
 [node name="pause menu" parent="KinematicBody2D" instance=ExtResource( 30 )]
-visible = false
 margin_left = -249.579
 margin_top = -160.478
 margin_right = -249.579
