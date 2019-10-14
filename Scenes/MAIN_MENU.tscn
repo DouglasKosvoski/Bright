@@ -26,7 +26,6 @@ __meta__ = {
 }
 
 [node name="start button" type="TextureButton" parent="."]
-editor/display_folded = true
 margin_left = 440.0
 margin_top = 340.0
 margin_right = 610.0
@@ -41,7 +40,7 @@ margin_top = -10.0
 margin_right = 263.0
 margin_bottom = 52.0
 custom_fonts/font = SubResource( 1 )
-text = "start"
+text = "new game"
 align = 1
 valign = 1
 __meta__ = {
