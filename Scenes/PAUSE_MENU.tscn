@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=24 format=2]
 
 [ext_resource path="res://scripts/pause_menu.gd" type="Script" id=1]
 [ext_resource path="res://sprites/pause_buttoms/player_idle.png" type="Texture" id=2]
@@ -18,6 +18,20 @@
 [ext_resource path="res://sprites/pause_buttoms/quit_idle.png" type="Texture" id=16]
 [ext_resource path="res://sprites/pause_buttoms/quit_hover.png" type="Texture" id=17]
 [ext_resource path="res://sprites/player_equipment.png" type="Texture" id=18]
+[ext_resource path="res://background/icon.png" type="Texture" id=19]
+[ext_resource path="res://font/kenvector_future.ttf" type="DynamicFontData" id=20]
+
+[sub_resource type="DynamicFont" id=1]
+size = 25
+font_data = ExtResource( 20 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 25
+font_data = ExtResource( 20 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 25
+font_data = ExtResource( 20 )
 
 [node name="pause menu" type="Control"]
 anchor_right = 1.0
@@ -106,12 +120,363 @@ texture_focused = ExtResource( 17 )
 [node name="player equipment" type="Control" parent="."]
 anchor_bottom = 1.0
 margin_left = 56.8182
+margin_top = 93.329
+margin_right = 56.8182
+margin_bottom = 93.329
+rect_scale = Vector2( 0.940066, 1.23446 )
+
+[node name="fundo" type="Sprite" parent="player equipment"]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 510.006, 193.038 )
+scale = Vector2( 2.6463, 1.41537 )
+texture = ExtResource( 18 )
+
+[node name="body parts" type="Control" parent="player equipment"]
+editor/display_folded = true
+margin_left = 46.1985
+margin_top = 67.1462
+margin_right = 86.1985
+margin_bottom = 107.146
+
+[node name="head" type="Control" parent="player equipment/body parts"]
+editor/display_folded = true
+margin_left = 0.313362
+margin_top = -0.000244141
+margin_right = 40.3134
+margin_bottom = 39.9998
+
+[node name="head" type="Sprite" parent="player equipment/body parts/head"]
+modulate = Color( 0.690196, 0.243137, 0.243137, 1 )
+position = Vector2( 32.3799, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="head L" type="Sprite" parent="player equipment/body parts/head"]
+position = Vector2( 145.403, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="head M" type="Sprite" parent="player equipment/body parts/head"]
+position = Vector2( 232.739, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="head H" type="Sprite" parent="player equipment/body parts/head"]
+position = Vector2( 323.812, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="torso" type="Control" parent="player equipment/body parts"]
+editor/display_folded = true
+margin_left = 0.313362
+margin_top = 58.7454
+margin_right = 40.3134
+margin_bottom = 98.7454
+
+[node name="torso" type="Sprite" parent="player equipment/body parts/torso"]
+modulate = Color( 0.690196, 0.243137, 0.243137, 1 )
+position = Vector2( 32.6932, 22.5267 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="torso L" type="Sprite" parent="player equipment/body parts/torso"]
+position = Vector2( 145.716, 22.5267 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="torso M" type="Sprite" parent="player equipment/body parts/torso"]
+position = Vector2( 233.053, 22.5267 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="torso H" type="Sprite" parent="player equipment/body parts/torso"]
+position = Vector2( 324.125, 22.5267 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="legs" type="Control" parent="player equipment/body parts"]
+editor/display_folded = true
+margin_left = 0.313362
+margin_top = 117.491
+margin_right = 40.3134
+margin_bottom = 157.491
+
+[node name="legs" type="Sprite" parent="player equipment/body parts/legs"]
+modulate = Color( 0.690196, 0.243137, 0.243137, 1 )
+position = Vector2( 32.6932, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="leg L" type="Sprite" parent="player equipment/body parts/legs"]
+position = Vector2( 145.716, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="leg M" type="Sprite" parent="player equipment/body parts/legs"]
+position = Vector2( 233.053, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="leg H" type="Sprite" parent="player equipment/body parts/legs"]
+position = Vector2( 324.125, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="foot" type="Control" parent="player equipment/body parts"]
+editor/display_folded = true
+margin_top = 176.237
+margin_right = 40.0
+margin_bottom = 216.237
+
+[node name="foot" type="Sprite" parent="player equipment/body parts/foot"]
+modulate = Color( 0.690196, 0.243137, 0.243137, 1 )
+position = Vector2( 33.0066, 22.5267 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="foot L" type="Sprite" parent="player equipment/body parts/foot"]
+position = Vector2( 142.293, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="foot H" type="Sprite" parent="player equipment/body parts/foot"]
+position = Vector2( 324.438, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="foot M" type="Sprite" parent="player equipment/body parts/foot"]
+position = Vector2( 233.366, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="atk def" type="Control" parent="player equipment"]
+editor/display_folded = true
+margin_left = 473.577
+margin_top = 140.578
+margin_right = 473.577
+margin_bottom = 860.578
+
+[node name="Sprite" type="Sprite" parent="player equipment/atk def"]
+modulate = Color( 0.333333, 0.360784, 0.345098, 1 )
+self_modulate = Color( 0.305882, 0.556863, 0.180392, 1 )
+position = Vector2( 231.54, 80.0228 )
+scale = Vector2( 7.23563, 2.23819 )
+texture = ExtResource( 19 )
+
+[node name="atk" type="Label" parent="player equipment/atk def"]
+margin_left = 49.3951
+margin_top = 28.1975
+margin_right = 199.395
+margin_bottom = 89.1975
+custom_fonts/font = SubResource( 1 )
+text = "ATk  =  80
+"
+valign = 2
+
+[node name="def" type="Label" parent="player equipment/atk def"]
+margin_left = 49.3951
+margin_top = 86.9432
+margin_right = 199.395
+margin_bottom = 147.943
+custom_fonts/font = SubResource( 3 )
+text = "DEF  =  43
+"
+valign = 1
+
+[node name="weight" type="Label" parent="player equipment/atk def"]
+margin_left = 236.788
+margin_top = 13.5111
+margin_right = 470.788
+margin_bottom = 106.511
+custom_fonts/font = SubResource( 2 )
+text = "weight  =  40.5"
+align = 1
+valign = 1
+
+[node name="hands" type="Control" parent="player equipment"]
+margin_left = 473.577
+margin_top = 67.1462
+margin_right = 513.577
+margin_bottom = 107.146
+
+[node name="right" type="Control" parent="player equipment/hands"]
+margin_left = 40.0
+margin_top = 24.548
+margin_right = 80.0
+margin_bottom = 64.548
+
+[node name="right" type="Label" parent="player equipment/hands/right"]
+margin_top = 6.10352e-05
+margin_right = 182.0
+margin_bottom = 61.0001
+custom_fonts/font = SubResource( 1 )
+text = "right hand"
+
+[node name="r" type="Control" parent="player equipment/hands/right"]
+margin_left = 288.181
+margin_top = 4.77942
+margin_right = 328.181
+margin_bottom = 44.7794
+rect_scale = Vector2( 0.598761, 0.598761 )
+
+[node name="1" type="Sprite" parent="player equipment/hands/right/r"]
+modulate = Color( 0.639216, 0.160784, 0.752941, 1 )
+position = Vector2( 31.8188, 20.1901 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="left" type="Control" parent="player equipment/hands"]
+margin_left = 40.0
+margin_top = -10.6725
+margin_right = 80.0
+margin_bottom = 29.3275
+
+[node name="left" type="Label" parent="player equipment/hands/left"]
+margin_left = -3.05176e-05
+margin_top = 6.10352e-05
+margin_right = 174.0
+margin_bottom = 61.0001
+custom_fonts/font = SubResource( 1 )
+text = "left hand"
+
+[node name="l" type="Control" parent="player equipment/hands/left"]
+margin_left = 235.887
+margin_right = 275.887
+margin_bottom = 40.0
+rect_scale = Vector2( 0.598761, 0.598761 )
+
+[node name="1" type="Sprite" parent="player equipment/hands/left/l"]
+modulate = Color( 0.690196, 0.14902, 0.839216, 1 )
+position = Vector2( 32.6933, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="2" type="Sprite" parent="player equipment/hands/left/l"]
+modulate = Color( 0.690196, 0.14902, 0.839216, 1 )
+position = Vector2( 120.03, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="3" type="Sprite" parent="player equipment/hands/left/l"]
+modulate = Color( 0.690196, 0.14902, 0.839216, 1 )
+position = Vector2( 211.102, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="head3" type="Control" parent="player equipment/hands"]
+editor/display_folded = true
+margin_left = -427.065
+margin_top = -0.000244141
+margin_right = -387.065
+margin_bottom = 39.9998
+
+[node name="head" type="Sprite" parent="player equipment/hands/head3"]
+modulate = Color( 0.690196, 0.243137, 0.243137, 1 )
+position = Vector2( 32.3799, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="head L" type="Sprite" parent="player equipment/hands/head3"]
+position = Vector2( 145.403, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="head M" type="Sprite" parent="player equipment/hands/head3"]
+position = Vector2( 232.739, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="head H" type="Sprite" parent="player equipment/hands/head3"]
+position = Vector2( 323.812, 22.5266 )
+scale = Vector2( 1.02166, 0.703958 )
+texture = ExtResource( 19 )
+
+[node name="inventario" type="Control" parent="."]
+editor/display_folded = true
+visible = false
+anchor_bottom = 1.0
+margin_left = 56.8182
 margin_top = 91.6087
 margin_right = 56.8182
 margin_bottom = 91.6087
 rect_scale = Vector2( 0.623879, 0.74011 )
 
-[node name="Sprite" type="Sprite" parent="player equipment"]
+[node name="Sprite" type="Sprite" parent="inventario"]
+position = Vector2( 530.643, 357.907 )
+scale = Vector2( 2.78076, 2.78076 )
+texture = ExtResource( 18 )
+
+[node name="stats2" type="Control" parent="."]
+editor/display_folded = true
+visible = false
+anchor_bottom = 1.0
+margin_left = 56.8182
+margin_top = 91.6087
+margin_right = 56.8182
+margin_bottom = 91.6087
+rect_scale = Vector2( 0.623879, 0.74011 )
+
+[node name="Sprite" type="Sprite" parent="stats2"]
+position = Vector2( 530.643, 357.907 )
+scale = Vector2( 2.78076, 2.78076 )
+texture = ExtResource( 18 )
+
+[node name="video settings" type="Control" parent="."]
+editor/display_folded = true
+visible = false
+anchor_bottom = 1.0
+margin_left = 56.8182
+margin_top = 91.6087
+margin_right = 56.8182
+margin_bottom = 91.6087
+rect_scale = Vector2( 0.623879, 0.74011 )
+
+[node name="Sprite" type="Sprite" parent="video settings"]
+position = Vector2( 530.643, 357.907 )
+scale = Vector2( 2.78076, 2.78076 )
+texture = ExtResource( 18 )
+
+[node name="audio settings" type="Control" parent="."]
+editor/display_folded = true
+visible = false
+anchor_bottom = 1.0
+margin_left = 56.8182
+margin_top = 91.6087
+margin_right = 56.8182
+margin_bottom = 91.6087
+rect_scale = Vector2( 0.623879, 0.74011 )
+
+[node name="Sprite" type="Sprite" parent="audio settings"]
+position = Vector2( 530.643, 357.907 )
+scale = Vector2( 2.78076, 2.78076 )
+texture = ExtResource( 18 )
+
+[node name="binds settings" type="Control" parent="."]
+editor/display_folded = true
+visible = false
+anchor_bottom = 1.0
+margin_left = 56.8182
+margin_top = 91.6087
+margin_right = 56.8182
+margin_bottom = 91.6087
+rect_scale = Vector2( 0.623879, 0.74011 )
+
+[node name="Sprite" type="Sprite" parent="binds settings"]
+position = Vector2( 530.643, 357.907 )
+scale = Vector2( 2.78076, 2.78076 )
+texture = ExtResource( 18 )
+
+[node name="are you sure" type="Control" parent="."]
+editor/display_folded = true
+visible = false
+anchor_bottom = 1.0
+margin_left = 56.8182
+margin_top = 91.6087
+margin_right = 56.8182
+margin_bottom = 91.6087
+rect_scale = Vector2( 0.623879, 0.74011 )
+
+[node name="Sprite" type="Sprite" parent="are you sure"]
 position = Vector2( 530.643, 357.907 )
 scale = Vector2( 2.78076, 2.78076 )
 texture = ExtResource( 18 )
