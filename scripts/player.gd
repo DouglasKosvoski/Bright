@@ -27,17 +27,9 @@ func _physics_process(delta):
 	_apply_gravity(GRAVITY)
 	# set player horizontal movement back to X (otherwise it won't stop)
 	motion.x = 0
-	# call the function to handle the animations
 	_move_and_animation()
-	# update Vector2 with new positions
 	motion = move_and_slide(motion, Vector2(0,-1))
 
-	# disable player movement if pause is active
-#	if PAUSE_MENU.pause == false:
-#		_move_and_animation()
-#		# update Vector2 with new positions
-#		motion = move_and_slide(motion, Vector2(0,-1))
-	
 
 # apply gravity to player on the Y-axis
 func _apply_gravity(force):
@@ -64,7 +56,7 @@ func _attack(anim, atk, temp_atk):
 		if temp_atk == 20:
 			temp_atk = 0
 			atk = false
-		temp_atk += 1	
+		temp_atk += 1
 	return [atk, temp_atk]
 
 # when roll key is pressed play animation and move player forward
