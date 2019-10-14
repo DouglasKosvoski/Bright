@@ -1,71 +1,71 @@
 [gd_scene load_steps=33 format=2]
 
 [ext_resource path="res://scripts/player.gd" type="Script" id=1]
-[ext_resource path="res://sprites/walk/player_walk_1.png" type="Texture" id=2]
-[ext_resource path="res://sprites/walk/player_walk_2.png" type="Texture" id=3]
-[ext_resource path="res://sprites/walk/player_walk_3.png" type="Texture" id=4]
-[ext_resource path="res://sprites/walk/player_walk_4.png" type="Texture" id=5]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_1.png" type="Texture" id=6]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_2.png" type="Texture" id=7]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_3.png" type="Texture" id=8]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_4.png" type="Texture" id=9]
-[ext_resource path="res://sprites/attack/player_ataque_1.png" type="Texture" id=10]
-[ext_resource path="res://sprites/attack/player_ataque_2.png" type="Texture" id=11]
-[ext_resource path="res://sprites/attack/player_ataque_3.png" type="Texture" id=12]
-[ext_resource path="res://sprites/roll/roll1.png" type="Texture" id=13]
-[ext_resource path="res://sprites/roll/roll2.png" type="Texture" id=14]
-[ext_resource path="res://sprites/roll/roll3.png" type="Texture" id=15]
-[ext_resource path="res://sprites/roll/roll4.png" type="Texture" id=16]
-[ext_resource path="res://sprites/roll/roll5.png" type="Texture" id=17]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_1.png" type="Texture" id=18]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_2.png" type="Texture" id=19]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_3.png" type="Texture" id=20]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_4.png" type="Texture" id=21]
-[ext_resource path="res://sprites/idle/player_frame_1.png" type="Texture" id=22]
-[ext_resource path="res://sprites/idle/player_frame_2.png" type="Texture" id=23]
-[ext_resource path="res://sprites/idle/player_frame_3.png" type="Texture" id=24]
-[ext_resource path="res://sprites/idle/player_frame_4.png" type="Texture" id=25]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO/player_magro_chapado_parado_frame_1.png" type="Texture" id=26]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO/player_magro_chapado_parado_frame_2.png" type="Texture" id=27]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO/player_magro_chapado_parado_frame_3.png" type="Texture" id=28]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO/player_magro_chapado_parado_frame_4.png" type="Texture" id=29]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO/player_magro_chapado_parado_frame_1.png" type="Texture" id=2]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO/player_magro_chapado_parado_frame_2.png" type="Texture" id=3]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO/player_magro_chapado_parado_frame_3.png" type="Texture" id=4]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO/player_magro_chapado_parado_frame_4.png" type="Texture" id=5]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_1.png" type="Texture" id=6]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_2.png" type="Texture" id=7]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_3.png" type="Texture" id=8]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_4.png" type="Texture" id=9]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_1.png" type="Texture" id=10]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_2.png" type="Texture" id=11]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_3.png" type="Texture" id=12]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_4.png" type="Texture" id=13]
+[ext_resource path="res://sprites/walk/player_walk_1.png" type="Texture" id=14]
+[ext_resource path="res://sprites/walk/player_walk_2.png" type="Texture" id=15]
+[ext_resource path="res://sprites/walk/player_walk_3.png" type="Texture" id=16]
+[ext_resource path="res://sprites/walk/player_walk_4.png" type="Texture" id=17]
+[ext_resource path="res://sprites/attack/player_ataque_1.png" type="Texture" id=18]
+[ext_resource path="res://sprites/attack/player_ataque_2.png" type="Texture" id=19]
+[ext_resource path="res://sprites/attack/player_ataque_3.png" type="Texture" id=20]
+[ext_resource path="res://sprites/roll/roll1.png" type="Texture" id=21]
+[ext_resource path="res://sprites/roll/roll2.png" type="Texture" id=22]
+[ext_resource path="res://sprites/roll/roll3.png" type="Texture" id=23]
+[ext_resource path="res://sprites/roll/roll4.png" type="Texture" id=24]
+[ext_resource path="res://sprites/roll/roll5.png" type="Texture" id=25]
+[ext_resource path="res://sprites/idle/player_frame_1.png" type="Texture" id=26]
+[ext_resource path="res://sprites/idle/player_frame_2.png" type="Texture" id=27]
+[ext_resource path="res://sprites/idle/player_frame_3.png" type="Texture" id=28]
+[ext_resource path="res://sprites/idle/player_frame_4.png" type="Texture" id=29]
 [ext_resource path="res://Scenes/PAUSE_MENU.tscn" type="PackedScene" id=30]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
 "frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ],
 "loop": true,
-"name": "walk",
-"speed": 6.0
-}, {
-"frames": [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
-"loop": true,
-"name": "idle heavy weapon",
+"name": "idle slim",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ) ],
-"loop": false,
-"name": "attack",
-"speed": 8.0
-}, {
-"frames": [ ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
-"loop": true,
-"name": "roll",
-"speed": 8.0
-}, {
-"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ) ],
+"frames": [ ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ) ],
 "loop": true,
 "name": "idle light weapon",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ) ],
+"frames": [ ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
 "loop": true,
-"name": "idle original fat",
+"name": "idle heavy weapon",
 "speed": 5.0
+}, {
+"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "walk",
+"speed": 6.0
+}, {
+"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ) ],
+"loop": false,
+"name": "attack",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ) ],
+"loop": true,
+"name": "roll",
+"speed": 8.0
 }, {
 "frames": [ ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ) ],
 "loop": true,
-"name": "idle slim",
+"name": "idle original fat",
 "speed": 5.0
 } ]
 
@@ -94,6 +94,7 @@ smoothing_speed = 14.0
 [node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D/Sprite"]
 frames = SubResource( 1 )
 animation = "idle original fat"
+frame = 2
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
