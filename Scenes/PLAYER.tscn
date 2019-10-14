@@ -94,7 +94,7 @@ smoothing_speed = 14.0
 [node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D/Sprite"]
 frames = SubResource( 1 )
 animation = "idle original fat"
-frame = 2
+frame = 3
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
