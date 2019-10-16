@@ -6,7 +6,7 @@ var motion = Vector2()
 # define some constants to the player
 const XSPEED = 400 			# horizontal speed
 const YSPEED = 1200			# vertical speed
-const ACCELERATION = 1.5	# jump acceleration
+const ACCELERATION = 0.8	# jump acceleration
 const GRAVITY = 50			# 'vertical' force pushing down
 
 
@@ -25,10 +25,12 @@ var atk = false
 func _physics_process(delta):
 	# apply gravity to the player
 	_apply_gravity(GRAVITY)
-	# set player horizontal movement back to X (otherwise it won't stop)
-	motion.x = 0
-	_move_and_animation()
-	motion = move_and_slide(motion, Vector2(0,-1))
+	if PAUSE_MENU.pause_master == false:
+		_apply_gravity(GRAVITY)
+		# set player horizontal movement back to X (otherwise it won't stop)
+		motion.x = 0
+		_move_and_animation()
+		motion = move_and_slide(motion, Vector2(0,-1))
 
 
 # apply gravity to player on the Y-axis
@@ -119,6 +121,7 @@ func _move_and_animation():
 			elif Input.is_action_just_pressed('jump'):
 				if is_on_floor() == true:
 					jump = true
+
 		else:
 			if Input.is_action_pressed('roll'):
 				roll = true
@@ -127,5 +130,6 @@ func _move_and_animation():
 			if Input.is_action_pressed('jump'):
 				if is_on_floor() == true:
 					jump = true
+					anim.play("jump")
 			else:
-				anim.play("idle original fat")
+				anim.play("idle slim")
