@@ -4,7 +4,8 @@ A game made initially for FronteiraTEC UFFS GameJam (sep, 2019).
 Two-Dimensional game inspired on @FromSoftware titles.
 
 ## Developers and GameArtists: 
-##### Main Programmer: [Douglas 'Attory' Kosvoski](https://github.com/DouglasKosvoski) ##### Desing & Concept Art: [Eduardo Folle Miotto](https://github.com/edo-folle)
+##### Main Programmer: [Douglas 'Attory' Kosvoski](https://github.com/DouglasKosvoski) 
+##### Desing & Concept Art: [Eduardo Folle Miotto](https://github.com/edo-folle)
 
 ##### 
 
