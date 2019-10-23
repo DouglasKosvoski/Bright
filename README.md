@@ -9,4 +9,4 @@ Two-Dimensional game inspired on @FromSoftware titles.
 
 ##### 
 
-![](https://github.com/DouglasKosvoski/Bright/blob/master/sprites/idle/PLAYER%20MAGRO%20CHAPADO%20PARADO/player_magro_chapado_parado.gif) ![](https://github.com/DouglasKosvoski/Bright/blob/master/sprites/idle/PLAYER%20MAGRO%20CHAPADO%20PARADO/player_magro_chapado_parado.gif)
+![](https://github.com/DouglasKosvoski/Bright/blob/master/sprites/idle/PLAYER%20MAGRO%20CHAPADO%20PARADO/player_magro_chapado_parado.gif) ![](https://github.com/DouglasKosvoski/Bright/blob/master/sprites/jump/PLAYER%20CHAPADO%20DESARMADO%20PULANDO/player_chapado_pulando_desarmado.gif) ![](https://github.com/DouglasKosvoski/Bright/blob/master/sprites/roll/player_chapado_rolando.gif)
