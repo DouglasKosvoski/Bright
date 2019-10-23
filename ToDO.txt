@@ -2,16 +2,15 @@
                                 BRIGHT
 
     ° PLAYER
-        - caminhar
+        - caminhar(rever)
         - correr (consome stamina, baseado em peso)
-        - rolar
-        - pular  (quanto mais tempo pressionado mais alto)
+        - rolar(sombrear depois)
+        - pular  (quanto mais tempo pressionado mais alto)(sombrear depois)
         - dano de queda
         - block  (escudo)
         - ataque fraco
         - ataque forte
         - multi-ataque (combos)
-        - melee  (desarmado)
         - stun   (stagger)
 
         - inventario
