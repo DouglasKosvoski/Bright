@@ -74,7 +74,7 @@ func _roll(anim, dir, motionX, temp_roll, roll):
 			temp_roll = 0
 			roll = false
 	return [roll, temp_roll]
-	
+
 # function responsible to control animations and sequences
 func _move_and_animation():
 	if jump == true:
@@ -92,7 +92,7 @@ func _move_and_animation():
 		var value = _attack(anim, atk, temp_atk)
 		atk = value[0]
 		temp_atk = value[1]
-		
+
 	elif roll == true:
 		var value = _roll(anim, dir, motion.x, temp_roll, roll)
 		roll = value[0]
@@ -130,6 +130,6 @@ func _move_and_animation():
 			if Input.is_action_pressed('jump'):
 				if is_on_floor() == true:
 					jump = true
-					anim.play("jump")
+					anim.play("jump completo")
 			else:
 				anim.play("idle slim")
