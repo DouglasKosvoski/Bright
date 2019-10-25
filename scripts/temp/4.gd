@@ -50,7 +50,6 @@ func _jump(motion, anim, is_rotated, normal_jump, higher_jump, fall_multiplier):
 		motion += Vector2.UP * (-9.8) * (fall_multiplier)
 
 	elif -50 <= motion.y && motion.y <= 50:
-		print("ta no meio porra")
 		anim.play("jumping_mid")
 		anim.set_flip_h(is_rotated)
 
@@ -60,8 +59,7 @@ func _jump(motion, anim, is_rotated, normal_jump, higher_jump, fall_multiplier):
 		anim.play("jumping_up")
 		anim.set_flip_h(is_rotated)
 		motion += Vector2.UP * (-9.8) * higher_jump * 2
-	else:
-		print(" ")
+
 	if is_on_floor():
 		# Normal jump
 		anim.play("idle slim")
