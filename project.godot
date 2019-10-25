@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Bright"
-run/main_scene="res://Scenes/MAIN_MENU.tscn"
+run/main_scene="res://Scenes/MAIN.tscn"
 config/icon="res://background/icon.png"
 
 [autoload]
