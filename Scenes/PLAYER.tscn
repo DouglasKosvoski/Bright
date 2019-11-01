@@ -7,16 +7,16 @@
 [ext_resource path="res://sprites/roll/player_chapado_rolando_frame_4.png" type="Texture" id=5]
 [ext_resource path="res://sprites/roll/player_chapado_rolando_frame_5.png" type="Texture" id=6]
 [ext_resource path="res://sprites/roll/player_chapado_rolando_frame_6.png" type="Texture" id=7]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_1.png" type="Texture" id=8]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_2.png" type="Texture" id=9]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_3.png" type="Texture" id=10]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_4.png" type="Texture" id=11]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_queda_frame_1.png" type="Texture" id=12]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_queda_frame_2.png" type="Texture" id=13]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_queda_frame_3.png" type="Texture" id=14]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_subida_frame_1.png" type="Texture" id=15]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_subida_frame_2.png" type="Texture" id=16]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_subida_frame_3.png" type="Texture" id=17]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_queda_frame_1.png" type="Texture" id=8]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_queda_frame_2.png" type="Texture" id=9]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_queda_frame_3.png" type="Texture" id=10]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_subida_frame_1.png" type="Texture" id=11]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_subida_frame_2.png" type="Texture" id=12]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_subida_frame_3.png" type="Texture" id=13]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_1.png" type="Texture" id=14]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_2.png" type="Texture" id=15]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_3.png" type="Texture" id=16]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_4.png" type="Texture" id=17]
 [ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_meio_frame_1.png" type="Texture" id=18]
 [ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_meio_frame_2.png" type="Texture" id=19]
 [ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_1.png" type="Texture" id=20]
@@ -47,22 +47,22 @@ animations = [ {
 "name": "roll",
 "speed": 8.0
 }, {
-"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ) ],
-"loop": true,
-"name": "idle heavy weapon",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ) ],
+"frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ],
 "loop": true,
 "name": "jumping_down",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
+"frames": [ ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
 "loop": true,
 "name": "jumping_up",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
+"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "idle heavy weapon",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
 "loop": true,
 "name": "jump completo",
 "speed": 6.0
@@ -73,7 +73,7 @@ animations = [ {
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ) ],
-"loop": false,
+"loop": true,
 "name": "attack",
 "speed": 8.0
 }, {
@@ -98,20 +98,18 @@ animations = [ {
 "speed": 5.0
 } ]
 
-[sub_resource type="CapsuleShape2D" id=2]
-radius = 15.6977
-height = 19.5283
+[sub_resource type="RectangleShape2D" id=2]
 
 [node name="PLAYER" type="Node2D"]
-position = Vector2( 260.536, 591.716 )
+position = Vector2( 640, 360.849 )
 scale = Vector2( 2.5, 2.5 )
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="."]
-position = Vector2( 143.786, -72.9758 )
+position = Vector2( -0.214394, 0 )
 script = ExtResource( 1 )
 
 [node name="Camera2D" type="Camera2D" parent="KinematicBody2D"]
-position = Vector2( 7.99997, -20 )
+position = Vector2( -0.000380993, 0 )
 current = true
 limit_smoothed = true
 drag_margin_h_enabled = false
@@ -119,16 +117,10 @@ smoothing_enabled = true
 smoothing_speed = 14.0
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D"]
-scale = Vector2( 1, 1 )
 frames = SubResource( 1 )
 animation = "idle slim"
-frame = 3
+frame = 2
 playing = true
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
-visible = false
-position = Vector2( -1.17072, 1.338 )
-shape = SubResource( 2 )
 
 [node name="pause menu" parent="KinematicBody2D" instance=ExtResource( 39 )]
 visible = false
@@ -137,3 +129,7 @@ margin_top = -160.478
 margin_right = -249.579
 margin_bottom = -160.478
 rect_scale = Vector2( 0.349471, 0.365357 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
+scale = Vector2( 2.12, 3.144 )
+shape = SubResource( 2 )

@@ -11,8 +11,10 @@ var direction = "right"
 var is_walking = false
 var is_jumping = false
 var is_rolling = false
+var is_attacking = false
 var roll_distance = 400
 var temp_roll = 0
+
 
 var xspeed = 400
 var gravity = 30 			# 80
@@ -30,23 +32,34 @@ func _physics_process(delta):
 			is_walking = false
 			is_jumping = false
 			is_rolling = true
-
+			is_attacking = false
+	elif Input.is_action_just_pressed("attack"):
+		if is_on_floor() == true:
+			is_walking = false
+			is_rolling = false
+			is_jumping = false
+		else:
+			is_jumping = true
+		is_attacking = true
 	elif Input.is_action_just_pressed("jump"):
 		if is_on_floor() == true:
 			is_walking = false
 			is_rolling = false
 			is_jumping = true
+			is_attacking = false
 
 	elif Input.is_action_pressed("left"):
 		direction = "left"
 		is_walking = true
 		is_jumping = false
+		is_attacking = false
 #		is_rolling = false 		### descomentar se quiser que 'andar' cancele rolamento
 
 	elif Input.is_action_pressed("right"):
 		direction = "right"
 		is_walking = true
 		is_jumping = false
+		is_attacking = false
 #		is_rolling = false 		### descomentar se quiser que 'andar' cancele rolamento
 	else:
 		motion.x = 0
@@ -56,7 +69,6 @@ func _physics_process(delta):
 	# call the functions based on variables of control
 	if is_jumping == true:
 		motion = jump(motion, anim, normal_jump, higher_jump, fall_multiplier)
-
 	elif is_rolling == true:
 		motion = roll(motion, anim, direction, roll_distance, temp_roll)
 	elif is_walking == true:
@@ -64,7 +76,10 @@ func _physics_process(delta):
 		motion = temp[0]
 		direction = temp[1]
 		is_walking = false
+	elif is_attacking == true:
+		is_attacking = attack(anim, is_attacking)
 	else:
+		is_attacking = false
 		is_jumping = false
 		is_rolling = false
 		anim.play("idle slim")
@@ -96,7 +111,6 @@ func move_left_right(motion, anim, direction, is_walking, xspeed):
 			anim.set_flip_h(true)
 	return [motion, direction]
 
-
 func roll(motion, anim, direction, roll_distance, temp_roll):
 	if direction == "right":
 		motion.x = roll_distance
@@ -121,7 +135,6 @@ func jump(motion, anim, normal_jump, higher_jump, fall_multiplier):
 		print(motion.y, "  DOWN")
 
 	elif -50 <= motion.y && motion.y <= 50 && motion.y != 0:
-		print(motion.y, "  MID")
 		anim.play("jumping_mid")
 
 	elif motion.y < -50 && Input.is_action_just_released("jump"): #Player is jumping
@@ -146,3 +159,14 @@ func jump(motion, anim, normal_jump, higher_jump, fall_multiplier):
 			motion += Vector2.UP * normal_jump * 2
 	
 	return motion
+
+func attack(anim, is_attacking):
+	if is_attacking == true:
+		anim.play('attack')
+
+		if anim.frame == 2:
+			is_attacking = false
+			anim.stop()
+
+	return is_attacking
+
