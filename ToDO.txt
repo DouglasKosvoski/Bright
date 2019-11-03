@@ -3,16 +3,14 @@
 
     ° PLAYER
         - caminhar
-        - correr (consome stamina, baseado em peso)
-        - rolar
-        - pular  (quanto mais tempo pressionado mais alto)
-        - dano de queda
-        - block  (escudo)
-        - ataque fraco
-        - ataque forte
-        - multi-ataque (combos)
-        - melee  (desarmado)
-        - stun   (stagger)
+        - correr (consome stamina, mais peso=mais rapido gasta estamina)
+        - rolar (consome stamina, mais peso=mais rapido gasta estamina)
+        - pular  (consome stamina, quanto mais tempo pressionado mais alto, quanto mais alto mais stamina consome, não recupera em queda)
+        - dano de queda(dano proporcinal a altura da queda e peso do player)
+        - block  (escudo, escudo erguido recuperação retardada, quanto maior o dano do ataque mais stamina gasta, se  o dano é maior que a stamina leva dano parcial e é stunnado)
+        - ataque fraco(pra frente combo continua até acabar a stamina, pra cima ciclo de 2 ataques e se no ar para baixo ataque unico, pra frente e cima ciclo de 2)
+        - ataque forte(ciclo de 2 ou 3 ataques, para quando acaba a estamina, no ar ataque unico para frente)
+        - stun   (quando quebra a defesa fica um tempo vulnerável sem se mexer, ataque muito forte pode cair no chão, stun por altura da queda)
 
         - inventario
             - menu de inventario contem
@@ -22,12 +20,13 @@
                 - healings
 
             - slot esquerdo
-                - escudo, healing, arremessaveis (ciclying)
+                - escudo, healing, arremessaveis (ciclying, pode escolher quais itens ficam no ciclo)
             - slot direito
                 - apenas uma arma de ataque equipavel por vez
 
 
         - ganho de shadows (almas)
+	    -quando mata um inimigo dropa shadow
             - bosses muito fortes (consumidos por Luz) nao dropam shadows
             apenas dropam/liberam area que guarda algum item raro/especial
             comercializavel depois com mercantes
@@ -36,12 +35,15 @@
             level up se da com o player conseguindo um numero x de shadows (x ∈ N)
             player entao vai para a cidade hub (central) conversa com a Shadow Keeper
             NPC que aumenta seus atributos em troca de Shadows
-
+	    atributos: hp(aumenta sua vida total), força(aumenta o dano causado), sp(aumenta sua stamina), defesa(diminui o dano
+	    recebido),
 
     ° GAME MECHANICS
         - adventure souls-like 2D platform
         - jogo nao tem pause
-        - full autosave (save automatico a cada x segundos (2 < x < 10))
+        - full autosave (save automatico a cada x segundos (2 < x < 10), ao sair do jogo e retornar continua com mesma vida etc, mas
+	volta na sala anterior, inimigos mortos não voltam)
+	- quando vai num checkpoint os inimigos retornam, certos inimigos(mais fracos) retornam quando o player sai da sala
         - inimigos (maioria) dropam Shadows (souls)
         - shadows ficam no local da morte ate proxima morte ou recolhimento da mesma (o que vier primeiro)
         - light eh inimiga (se o player ficar no sol o HP eh drenado)
