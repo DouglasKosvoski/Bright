@@ -47,11 +47,12 @@
         - inimigos (maioria) dropam Shadows (souls)
         - shadows ficam no local da morte ate proxima morte ou recolhimento da mesma (o que vier primeiro)
         - light eh inimiga (se o player ficar no sol o HP eh drenado)
-        - mercantes
-        - ferreiro
+        - mercantes()
+        - ferreiro(evolui as armas, escudo e armaduras, usando itens especificos para isso)
         - 'bonfires' / checkpoints
         - inimigos dropam itens
-        - inimigos comuns respawn (sempre que o checkpoint for utilizado)
+        - inimigos comuns respawnam (sempre que o checkpoint for utilizado)
+	- HUD: barra de vida, stamina, número de shadows,
         - HUD visivel apenas em 'combate'
         - baus de tesouro (a definir se visualmente sera um bau)
         - zoom-in & zoom-out de cenas importantes, boss fights etc
