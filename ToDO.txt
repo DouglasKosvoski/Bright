@@ -76,9 +76,19 @@
 		 o protagonista mataria o dragão mas não se tornaria o próximo, mostrando estar infectado pela luz(intuito inicial de ser uma surpresa ao jogador)
 
 
+    ° ÁREAS
+    	- cidade inicial: sem inimigos, onde os npcs ficam, arquitetura gótica
+	- cavernas: primeira área, inimigos: esqueletos, antigos guerreiro contaminados, etc, liga outras áreas
+	- reino dos contaminados: fica a quest para pegar o terceiro final
+	- floresta: 
+    
+    
+    
+    
+    
     ° COSMETICA DOS BOSSES (habilidades, ataques, natureza de origem,
                             importancia para a historia, o que dropam etc)
-        --- a ser colocado no papel pelo responsavel
+        - 	
 
 
     ° O QUE NAO VAI TER
