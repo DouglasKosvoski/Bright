@@ -7,25 +7,25 @@
 [ext_resource path="res://sprites/roll/player_chapado_rolando_frame_4.png" type="Texture" id=5]
 [ext_resource path="res://sprites/roll/player_chapado_rolando_frame_5.png" type="Texture" id=6]
 [ext_resource path="res://sprites/roll/player_chapado_rolando_frame_6.png" type="Texture" id=7]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_queda_frame_1.png" type="Texture" id=8]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_queda_frame_2.png" type="Texture" id=9]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_queda_frame_3.png" type="Texture" id=10]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_subida_frame_1.png" type="Texture" id=11]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_subida_frame_2.png" type="Texture" id=12]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_subida_frame_3.png" type="Texture" id=13]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_1.png" type="Texture" id=14]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_2.png" type="Texture" id=15]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_3.png" type="Texture" id=16]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_4.png" type="Texture" id=17]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_meio_frame_1.png" type="Texture" id=18]
-[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_meio_frame_2.png" type="Texture" id=19]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_1.png" type="Texture" id=20]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_2.png" type="Texture" id=21]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_3.png" type="Texture" id=22]
-[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_4.png" type="Texture" id=23]
-[ext_resource path="res://sprites/attack/player_ataque_1.png" type="Texture" id=24]
-[ext_resource path="res://sprites/attack/player_ataque_2.png" type="Texture" id=25]
-[ext_resource path="res://sprites/attack/player_ataque_3.png" type="Texture" id=26]
+[ext_resource path="res://sprites/attack/player_ataque_1.png" type="Texture" id=8]
+[ext_resource path="res://sprites/attack/player_ataque_2.png" type="Texture" id=9]
+[ext_resource path="res://sprites/attack/player_ataque_3.png" type="Texture" id=10]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_queda_frame_1.png" type="Texture" id=11]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_queda_frame_2.png" type="Texture" id=12]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_queda_frame_3.png" type="Texture" id=13]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_subida_frame_1.png" type="Texture" id=14]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_subida_frame_2.png" type="Texture" id=15]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_subida_frame_3.png" type="Texture" id=16]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_1.png" type="Texture" id=17]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_2.png" type="Texture" id=18]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_3.png" type="Texture" id=19]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_4.png" type="Texture" id=20]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_meio_frame_1.png" type="Texture" id=21]
+[ext_resource path="res://sprites/jump/PLAYER CHAPADO DESARMADO PULANDO/player_chapado_pulando_desarmado_meio_frame_2.png" type="Texture" id=22]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_1.png" type="Texture" id=23]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_2.png" type="Texture" id=24]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_3.png" type="Texture" id=25]
+[ext_resource path="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA LEVE/player_magro_chapado_parado_com_arma_leve_frame_4.png" type="Texture" id=26]
 [ext_resource path="res://sprites/idle/player_frame_1.png" type="Texture" id=27]
 [ext_resource path="res://sprites/idle/player_frame_2.png" type="Texture" id=28]
 [ext_resource path="res://sprites/idle/player_frame_3.png" type="Texture" id=29]
@@ -49,33 +49,33 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ],
 "loop": true,
+"name": "attack",
+"speed": 8.0
+}, {
+"frames": [ ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
+"loop": true,
 "name": "jumping_down",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
+"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
 "loop": true,
 "name": "jumping_up",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ],
+"frames": [ ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ) ],
 "loop": true,
 "name": "idle heavy weapon",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ) ],
+"frames": [ ExtResource( 21 ), ExtResource( 22 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ) ],
 "loop": true,
 "name": "jump completo",
 "speed": 6.0
 }, {
-"frames": [ ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ) ],
+"frames": [ ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "idle light weapon",
 "speed": 5.0
-}, {
-"frames": [ ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ) ],
-"loop": true,
-"name": "attack",
-"speed": 8.0
 }, {
 "frames": [ ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ) ],
 "loop": true,
@@ -87,7 +87,7 @@ animations = [ {
 "name": "walk",
 "speed": 6.0
 }, {
-"frames": [ ExtResource( 18 ), ExtResource( 19 ) ],
+"frames": [ ExtResource( 21 ), ExtResource( 22 ) ],
 "loop": true,
 "name": "jumping_mid",
 "speed": 5.0
@@ -117,13 +117,13 @@ smoothing_enabled = true
 smoothing_speed = 14.0
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="KinematicBody2D"]
+position = Vector2( -0.000396729, 0 )
 frames = SubResource( 1 )
 animation = "idle slim"
-frame = 2
+frame = 1
 playing = true
 
 [node name="pause menu" parent="KinematicBody2D" instance=ExtResource( 39 )]
-visible = false
 margin_left = -249.579
 margin_top = -160.478
 margin_right = -249.579

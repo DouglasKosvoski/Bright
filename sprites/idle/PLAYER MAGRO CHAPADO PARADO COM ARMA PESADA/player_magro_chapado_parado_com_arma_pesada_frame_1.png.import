@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/player_magro_chapado_parado_com_arma_pesada_frame_1.png-ad1e02f8d7def6a07532fa57724f01a4.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://sprites/idle/PLAYER MAGRO CHAPADO PARADO COM ARMA PESADA/player_magro_chapado_parado_com_arma_pesada_frame_1.png"
+dest_files=[ "res://.import/player_magro_chapado_parado_com_arma_pesada_frame_1.png-ad1e02f8d7def6a07532fa57724f01a4.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=false
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=false
+svg/scale=1.0
