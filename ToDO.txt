@@ -3,10 +3,10 @@
 
     ° PLAYER
         - caminhar
-        - correr (consome stamina, mais peso=mais rapido gasta estamina)
-        - rolar (consome stamina, mais peso=mais rapido gasta estamina)
+        - correr (consome stamina)
+        - rolar (consome stamina)
         - pular  (consome stamina, quanto mais tempo pressionado mais alto, quanto mais alto mais stamina consome, não recupera em queda)
-        - dano de queda(dano proporcinal a altura da queda e peso do player)
+        - dano de queda(dano proporcinal a altura da queda)
         - block  (escudo, escudo erguido recuperação retardada, quanto maior o dano do ataque mais stamina gasta, se  o dano é maior que a stamina leva dano parcial e é stunnado)
         - ataque fraco(pra frente combo continua até acabar a stamina, pra cima ciclo de 2 ataques e se no ar para baixo ataque unico, pra frente e cima ciclo de 2)
         - ataque forte(ciclo de 2 ou 3 ataques, para quando acaba a estamina, no ar ataque unico para frente)
@@ -14,15 +14,12 @@
 
         - inventario
             - menu de inventario contem
-                - armas (comuns, de quest, e armas de bosses)
-                - escudos, arremessaveis (bombs, throwing knives etc)
-                - armaduras completas (nao misturaveis com outros sets)
-                - healings
+                - healings, escudo, arremessaveis (bombs, throwing knives etc)
 
             - slot esquerdo
                 - escudo, healing, arremessaveis (ciclying, pode escolher quais itens ficam no ciclo)
             - slot direito
-                - apenas uma arma de ataque equipavel por vez
+                - espada
 
 
         - ganho de shadows (almas)
@@ -35,8 +32,8 @@
             level up se da com o player conseguindo um numero x de shadows (x ∈ N)
             player entao vai para a cidade hub (central) conversa com a Shadow Keeper
             NPC que aumenta seus atributos em troca de Shadows
-	    atributos: hp(aumenta sua vida total), força(aumenta o dano causado), sp(aumenta sua stamina), defesa(diminui o dano
-	    recebido),
+	    atributos: hp(aumenta sua vida total), força(aumenta o dano ataque forte), destreza(aumenta o dano ataque fraco),
+	    	sp(aumenta sua stamina), defesa(diminui o dano recebido),
 
     ° GAME MECHANICS
         - adventure souls-like 2D platform
@@ -60,6 +57,7 @@
 
 
     ° HISTORIA/LORE (completa de cada pedaco do jogo, item, inimigo, finais etc)
+    	- subsistencia a base de plantas que nao precisam de luz(cogumelos, fungos)
         - cidade em baixo de um vale, protegida pela sombra do dragão(pai) da doença causada pelo sol
         - dragão está morrendo pela doença
         - protagonista é um de vários cavaleiros que receberam uma pequena parte da sombra do pai, com intuito de procurar uma cura
@@ -106,3 +104,13 @@
         - magica
         - item que aumenta ataque/defesa temporariamente/permanentemente
         - aneis
+
+    ° ATUALIZACOES
+    	- uma so arma e armadura(atualizar sprites)
+	- sem menu(sem menu durante jogo, no check-point upa de nivel)
+	- varios tipos de ataques
+	- itens da mao esquerda sao selecionados no check-point
+	- "entrar" no checkpoint(escamas de dragao), 
+	- checkpoint tem fast-travel para hub, hub tem fast-travel para o ultimo checkpoint
+	- pensar nos NPCs(up de atributos principais, up de outros atributos com max(mais de um npc), venda de arremessaveis)
+	
